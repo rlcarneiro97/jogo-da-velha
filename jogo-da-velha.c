@@ -47,7 +47,7 @@ int Menu(){
 
     unsigned int opcao = 0;
 
-    printf("\n|---------- Jogo da Velha ----------|\n");
+    printf("\n|----- Jogo da Velha v1.1 - Rafael Carneiro -----|\n");
     printf("\n1 - Jogar\n");
     printf("\n0 - Sair\n");
     printf("\nOpcao: ");
@@ -211,6 +211,8 @@ int main(void){
 
     int tabuleiro[DIM][DIM];
     int continuar = 1;
+
+    system("color A");
 
     LimpaTela();
 
